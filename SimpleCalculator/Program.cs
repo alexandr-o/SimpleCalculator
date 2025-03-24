@@ -20,6 +20,7 @@ namespace SimpleCalculator
                 Console.WriteLine("Виберіть дію\n1. Додавання\n2. Віднімання\n3. Множення\n4. Ділення\n0. Вихід\n");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
+                // switch для реалізації вибору операції
                 switch (choice)
                 {
                     case 1: { Console.WriteLine($"{a} + {b} = {a + b} "); break; }
